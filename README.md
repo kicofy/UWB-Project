@@ -2,9 +2,9 @@
 
 [中文说明](README.zh-CN.md)
 
-UWB-Project is an experimental UWB positioning and flight-integration workspace for a parent-child UAV aerial docking system. The core goal is to compute reliable relative position from UWB modules, then use that position signal together with Pixhawk/MAVLink, ESP-NOW, and optional OpenMV AprilTag vision to support close-range docking experiments.
+UWB-Project is a UWB positioning and flight-integration workspace for a parent-child UAV aerial docking system. It collects code for reading UWB modules, estimating relative position, and connecting those experiments with Pixhawk/MAVLink, ESP-NOW, and optional OpenMV AprilTag vision.
 
-The repository contains firmware sketches, Python visualization/debugging tools, wiring notes, module datasheets, and older prototype implementations. It is organized as a research and integration project rather than a single packaged library.
+The repository contains firmware sketches, Python visualization/debugging tools, wiring notes, module datasheets, and older prototype implementations. It is an integration workspace rather than a packaged software library.
 
 ## Project Goals
 
